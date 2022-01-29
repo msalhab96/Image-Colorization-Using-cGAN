@@ -23,4 +23,8 @@ I used the Anime Faces dataset -for computational power purposes-, you can find 
 
 # Results
 
-The models trained for ~60 epochs and there is a space for improvement, you can download the models from [here](https://drive.google.com/file/d/1f9EmKNrki3IkMMJvfnb_AclEa6-8kWSX/view?usp=sharing)
+The models trained for ~30 epochs and there is a space for improvement, you can download the models from [here](https://drive.google.com/file/d/1f9EmKNrki3IkMMJvfnb_AclEa6-8kWSX/view?usp=sharing)
+
+The image below shows some sample from the test data
+
+![results](https://github.com/msalhab96/Image-Colorization-Using-cGAN/blob/master/images/results.jpg)
