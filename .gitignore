@@ -7,6 +7,11 @@ outputs/**
 # vscode
 .vscode/**
 
+# train and test  data
+train/**
+test/**
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
