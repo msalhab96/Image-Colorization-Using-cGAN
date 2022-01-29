@@ -16,3 +16,11 @@ Where each block of the generator consists of:
 And the last activation function is sigmoid sigmoid 
 
 For the discriminator, it's a stack of convolutional layers followed by a fully connected layer and sigmoid activation function.
+
+# Dataset
+
+I used the Anime Faces dataset -for computational power purposes-, you can find the dataset on Kaggle [here](https://www.kaggle.com/soumikrakshit/anime-faces), the first 1000 used as a test set and the rest for training.
+
+# Results
+
+The models trained for ~60 epochs and there is a space for improvement, you can download the models from [here](https://drive.google.com/file/d/1f9EmKNrki3IkMMJvfnb_AclEa6-8kWSX/view?usp=sharing)
