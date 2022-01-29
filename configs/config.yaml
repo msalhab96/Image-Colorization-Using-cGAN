@@ -1,0 +1,30 @@
+device: 'cuda'
+
+tr_params:
+  epochs: 400
+  batch_size: 32
+  save_to: 'checkpoints'
+  checkpoint:
+    gen_path: null
+    disc_path: null
+
+generator:
+  in_channels: 1
+  out_channels: 3
+  scaling_factor: 2
+  base_n_channels: 32
+
+discriminator:
+  in_channels: 3
+  scaling_factor: 2
+  base_n_channels: 32
+
+data:
+  train_path: 'train/'
+  test_path: 'test/'
+  img_ext: '.png'
+
+
+checkpoint:
+  gen_path: null
+  disc_path: null
